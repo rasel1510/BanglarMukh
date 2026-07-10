@@ -1,18 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-"""
-================================================================================
-                    BANGLARMUKH FRAMEWORK ORCHESTRATOR
-================================================================================
-This script acts as the main entry point for the BanglarMukh framework,
-coordinating physics-aware feature extraction, cross-attention fusion,
-LoRA fine-tuning, prompting strategies (Zero-Shot, Few-Shot, CoT), 
-and evaluation protocols (BLEU, ROUGE, Word F1, VQA Accuracy, LLM-as-a-Judge).
-
-Developed for Bangladeshi cultural understanding and visual reasoning tasks.
-================================================================================
-"""
 
 import os
 import sys
