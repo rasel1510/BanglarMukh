@@ -1,23 +1,15 @@
 # BanglarMukh: A Physics-Aware Multilingual Multimodal Vision Language Benchmark for Evaluating Cultural and Traditional Grounding
 
-[![Paper](https://img.shields.io/badge/Paper-NeurIPS/CVPR-red.svg)](#)
+
 [![Dataset](https://img.shields.io/badge/Dataset-BanglarMukh-blue.svg)](https://github.com/rasel1510/BanglarMukh)
-[![Code Grade](https://img.shields.io/badge/Code--Grade-A*--Level-brightgreen.svg)](#)
 [![OS](https://img.shields.io/badge/OS-Windows/Linux-orange.svg)](#)
 
 ---
 
 ## 🌟 Overview
 
-**BanglarMukh** is a novel, physics-aware, multilingual, and multimodal vision-language benchmark designed to evaluate and enhance the cultural and traditional grounding of large Vision-Language Models (VLMs) on the heritage of Bangladesh. By integrating structural physical characteristics with deep semantic representations, **BanglarMukh** addresses the limitations of standard VLMs in recognizing regional variations, local attires, domestic wildlife, national history, and regional dialects.
+Bangla culture and tradition is distinctly utilizing local dialects, heritage, tradition, and regular visual practices, yet it is greatly absent from multimodal assessment. We intro- duce **BanglarMukh**, a culturally and traditionally rooted bench- mark for evaluating Large Vision Language Models (LVLMs) on Bangladeshi tradition and culture over linguistic diver- sity. BanglarMukh encompasses 1,448 expert annotated images traversing 15 domains and reinforces both captioning and Visual Question Answering (VQA). Each category is expanded into six standard languages and six native dialects, generating 66,608 evaluation artifacts. Experiments over various physics aware LVLMs exhibit that assessment on base Bangla alone consid- erably inflates real world result, accuracy and reasoning quality reduce clearly over dialect alters, with the superior reduction in free form captioning. Languages such as Hindi, Urdu, Chinese conserve some traditional cues but remain weaker in framed reasoning. We releases the dataset, prompts, and resulting scripts to ensure reproducible, culturally conscious benchmarking.
 
-### Key Contributions:
-1. **Physics-Aware Visual Fusion**: Utilizes a custom `PhysicsFusedVisionTower` combining a `PhysicsFeatureExtractor` and a `PhysicsMotionEncoder` to inject physical spatial/structural priors into base visual representations (Qwen2-VL, PaliGemma) through cross-conscious fusion attention.
-2. **Multilingual Baseline Evaluation**: Support for **6 primary languages** (Bengali, English, Chinese, French, Hindi, Urdu) for visual captioning and VQA reasoning tasks.
-3. **Dialect Gradient Adaptation**: Evaluates model performance across **6 local dialects of Bangladesh** (Barishal, Chittagong, Noakhali, Rajshahi, Rangpur, Sylhet) using Gemini 1.5 Pro-driven translation pipelines and Parameter-Efficient Fine-Tuning (PEFT/LoRA).
-4. **Comprehensive Cultural Grounding**: Evaluated across **15 distinct cultural and heritage classes** representing the traditional essence of Bangladesh.
-
----
 
 ## 📸 Methodology
 
