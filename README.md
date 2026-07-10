@@ -26,24 +26,24 @@ The dataset is organized hierarchically. It separates the raw image repository f
 ```
 BanglarMukh/
 └── Data/
-    ├── images/                          # Raw image repositories organized by the 15 classes
-    │   ├── attires/                     # Local attires (e.g., Sharee, Panjabi, Lungi)
-    │   ├── crafts/                      # Handcrafts (e.g., Nakshi Kantha, Clay Pottery)
-    │   ├── education institutions/      # Historical educational structures (e.g., Dhaka College)
-    │   ├── festival/                    # Cultural and religious festivals (e.g., Pohela Boishakh)
-    │   ├── fishes/                      # Indigenous fish species of Bangladesh (e.g., Ilish)
-    │   ├── food/                        # Bengali traditional dishes (e.g., Panta Ilish, Biryani)
-    │   ├── historical places/           # Archeological and historic sites (e.g., Lalbagh Fort)
-    │   ├── movements/                   # Historic movements of Bangladesh (e.g., Language Movement)
-    │   ├── national_achievements/       # Key national milestones and achievements
-    │   ├── natural beauty/              # Landscapes, Sundarbans, and scenic reserves
-    │   ├── personalities/               # Historic and notable figures of Bangladesh
-    │   ├── rivers/                      # Major rivers of Bangladesh (e.g., Padma, Meghna)
-    │   ├── sports/                      # Traditional and national sports (e.g., Kabaddi)
-    │   ├── sweets/                      # Traditional Bengali sweets (e.g., Roshogolla, Chomchom)
-    │   └── wildlife/                    # National wildlife (e.g., Royal Bengal Tiger, Doel)
+    ├── images/
+    │   ├── attires/
+    │   ├── crafts/
+    │   ├── education institutions/
+    │   ├── festival/
+    │   ├── fishes/
+    │   ├── food/
+    │   ├── historical places/
+    │   ├── movements/
+    │   ├── national_achievements/
+    │   ├── natural beauty/
+    │   ├── personalities/
+    │   ├── rivers/
+    │   ├── sports/
+    │   ├── sweets/
+    │   └── wildlife/
     │
-    ├── languages/                       # Ground-truth annotations in 6 primary languages
+    ├── languages/
     │   ├── pure_bangla/
     │   │   ├── attires/
     │   │   │   └── annotations/
@@ -56,7 +56,7 @@ BanglarMukh/
     │   ├── hindi/
     │   └── urdu/
     │
-    └── Dialects/                        # Captions and VQA pairs adapted into 6 regional dialects
+    └── Dialects/
         ├── Barisal_dialect/
         │   ├── attires/
         │   │   └── annotations/
