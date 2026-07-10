@@ -1,14 +1,4 @@
-"""
-================================================================================
-BanglarMukh: Physics-Informed Vision-Language Dialect Translation Pipeline
-================================================================================
-Dialect Target : নোয়াখাইল্লা (Noakhali regional dialect)
-Phonetics      : 'p' to 'h'/'f' sound shift, present continuous '-iyer' / '-korer'
-Architecture   : Qwen2-VL / PaliGemma + Physics Fused Vision Tower + LoRA PEFT
-Evaluator      : Bangla-customized BLEU-4, ROUGE-L, and Token-F1 Metrics
-Author         : BanglarMukh Research Group (A* Conference Submission Codebase)
-================================================================================
-"""
+
 
 import os
 import sys
