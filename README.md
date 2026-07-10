@@ -6,7 +6,7 @@
 
 ---
 
-## 🌟 Overview
+## Abstract
 
 Bangla culture and tradition is distinctly utilizing local dialects, heritage, tradition, and regular visual practices, yet it is greatly absent from multimodal assessment. We intro- duce **BanglarMukh**, a culturally and traditionally rooted bench- mark for evaluating Large Vision Language Models (LVLMs) on Bangladeshi tradition and culture over linguistic diver- sity. BanglarMukh encompasses 1,448 expert annotated images traversing 15 domains and reinforces both captioning and Visual Question Answering (VQA). Each category is expanded into six standard languages and six native dialects, generating 66,608 evaluation artifacts. Experiments over various physics aware LVLMs exhibit that assessment on base Bangla alone consid- erably inflates real world result, accuracy and reasoning quality reduce clearly over dialect alters, with the superior reduction in free form captioning. Languages such as Hindi, Urdu, Chinese conserve some traditional cues but remain weaker in framed reasoning. We releases the dataset, prompts, and resulting scripts to ensure reproducible, culturally conscious benchmarking.
 
