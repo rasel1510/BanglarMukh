@@ -115,16 +115,7 @@ python Dialects/Sylthet/dialect_sylthet.py --prompt_mode few_shot
 * `--dry_run`: Execute in dry-run mode (simulating API response rates without loading full models/keys).
 * `--disable_cache`: Disable local JSON translation caching.
 
----
 
-## 📊 Benchmark Results
-
-| Model | Categories | Zero-Shot Caption | VQA | Few-Shot Caption | VQA | CoT VQA |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| | | **B-F1** \| **LLM** | **Acc(%)** | **B-F1** \| **LLM** | **Acc(%)** | **Acc(%)** |
-| **BanglarMukh** | Attires | 0.56 \| 0.40 | 45.0% | 0.58 \| 0.42 | 46.0% | 52.0% |
-
----
 
 ## 📝 Citation
 
